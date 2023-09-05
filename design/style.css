@@ -1,0 +1,127 @@
+body {
+        margin: 0px;
+        padding: 0px;
+        background: url("/img/i.jpg");
+        color: azure;
+}
+
+.left {
+        border: 2px solid black;
+        display: inline-block;
+        position: absolute;
+        top: 5px;
+        left: 4px;
+
+
+
+}
+
+.mid {
+        border: 2px solid black;
+        display: block;
+        width: 30%;
+        margin: 10px auto;
+
+}
+
+.right {
+        border: 2px solid black;
+        display: inline-block;
+        position: absolute;
+        top: 10px;
+        right: 34px;
+
+
+}
+
+.navbar li a {
+        color:rgb(229, 202, 202);
+        text-decoration: none;
+        padding: 5px;
+        font-size: 20px;
+}
+
+.navbar li {
+        color: white;
+        display: inline-block;
+
+}
+
+.navbar {
+        display: inline-block;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+
+        text-decoration: underline;
+        color: yellowgreen;
+
+}
+
+.left img {
+        width: 145px;
+        height: 100px;
+        filter: invert(100%);
+}
+
+.left div {
+        color: white;
+        font-size: 22px;
+}
+
+.btn {
+        padding: 10px;
+        margin: 10px;
+        border-radius: 15px;
+        font-size: 16px;
+}
+
+.btn:hover {
+        text-decoration: underline;
+        background-color: yellowgreen;
+
+}
+.container
+{
+        display: block;
+        width: 33%;
+        border-radius: 25px;
+        font-size: 30px;
+        margin: 10px 930px;
+        padding: 30px;
+}
+.container h4
+{
+        text-align: center;
+}
+.form-group input
+{
+        
+        text-align: center;
+        display: block;
+        margin: 10px 20px;
+        padding: 5px 40px;
+        width: 400px;
+        border-radius: 18px;
+        font-size: 18px;
+
+}
+.bt{
+
+        display: block;
+        width: 30%;
+        margin:20px auto;
+        font-size: 20px;
+        background-color:palegreen;
+        color: black;
+        border-radius: 20px;
+
+
+}
+.bt:hover
+{
+        color: black;
+        background-color: green;
+}
